@@ -31,12 +31,9 @@ nav {
   color: inherit;
   transition: background-color 100ms ease-in-out;
 }
-.menu-title:hover {
+.menu-title:hover, .active .menu-title {
   color: inherit;
   cursor: pointer;
-}
-.menu-title:active {
-  color: inherit;
   background-color: rgb(91, 148, 214);
 }
 
@@ -60,11 +57,11 @@ nav {
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 }
-.menu-items.active li {
+.active .menu-items li {
   visibility: visible;
   opacity: 1;
   cursor: pointer;
 }
-.menu-items.active li:hover {
+.active .menu-items li:hover {
   background-color: rgb(255, 205, 77);
 }
