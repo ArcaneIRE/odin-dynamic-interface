@@ -35,10 +35,15 @@ nav a {
   font-weight: 500;
   text-align: center;
   transition: background-color 100ms ease-in-out;
+  color: #EEE;
 }
 .menu-title:hover, .active .menu-title {
   cursor: pointer;
   background-color: rgb(91, 148, 214);
+}
+
+.text-accent {
+  border-bottom: 1px solid #EEE;
 }
 
 .menu-items {
