@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: rgb(74, 124, 180);
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -36,7 +40,7 @@ nav {
 }
 
 .menu-items {
-  position: relative;
+  position: absolute;
   z-index: 1;
   margin: 0rem;
   padding: 0;
