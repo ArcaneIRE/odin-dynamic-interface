@@ -4,3 +4,62 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+.menu-container {
+  position: relative;
+}
+.menu p {
+  padding: 0;
+}
+
+.menu-title {
+  display: inline-flex;
+  margin: 0;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  background-color: rgb(74, 124, 180);
+}
+.menu-title:hover {
+  color: inherit;
+  cursor: pointer;
+}
+.menu-title:active {
+  color: inherit;
+}
+
+.menu-items {
+  position: relative;
+  z-index: 1;
+  margin: 0rem;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-items li {
+  box-sizing: border-box;
+  position: relative;
+  padding: 1rem;
+  list-style: none;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgb(226, 185, 81);
+  transition-property: visibility, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+.menu-items.active li {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+.menu-items.active li:hover {
+  text-decoration: underline;
+}
