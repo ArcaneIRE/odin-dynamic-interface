@@ -12,6 +12,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0;
 }
 
@@ -28,7 +29,6 @@ nav a {
 }
 
 .menu-title {
-  display: inline-flex;
   margin: 0;
   padding: 1.2rem 2rem;
   font-size: 1.2rem;
@@ -43,6 +43,7 @@ nav a {
 }
 
 .text-accent {
+  box-sizing: border-box;
   border-bottom: 1px solid #EEE;
 }
 
