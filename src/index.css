@@ -38,11 +38,14 @@ nav a {
   color: #EEE;
 }
 .menu-title:hover, .active .menu-title {
-  cursor: pointer;
+  cursor:default;
   background-color: rgb(91, 148, 214);
 }
 
-.text-accent {
+.working-link .menu-title {
+  cursor: pointer;
+}
+.working-link span {
   box-sizing: border-box;
   border-bottom: 1px solid #EEE;
 }
