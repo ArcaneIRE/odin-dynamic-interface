@@ -1,0 +1,9 @@
+@import url(header.css);
+@import url(carousel.css);
+
+body {
+  background-color: #EEE;
+  color: rgb(15, 15, 15);
+  font-family: sans-serif;
+  margin: 0;
+}
